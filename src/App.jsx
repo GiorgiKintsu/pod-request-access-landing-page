@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className='mainWrapper'>
-      <div className='cover'></div>
+      <div className='secondcover'></div>
       <div className='logos'>
         <img src="./logo.svg" alt="logoImage" />
         <img src="./pod.svg" alt="podImage" />
