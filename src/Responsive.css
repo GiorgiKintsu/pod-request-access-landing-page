@@ -1,0 +1,158 @@
+@media only screen and (max-width: 1300px) {
+  .mainWrapper {
+    width: 1000px;
+    top: 0;
+  }
+  .bannerImage{
+    width: 751px;
+    height: 767px;
+    background-image: url("./singer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+  }
+  .bannerImage .noneImage{
+    display: none;
+  }
+  .accesWrapper{
+    width: 675px;
+    height: 509px;
+    margin-top: 51px;
+  }
+  .logos{
+    margin-top: 50px;
+  }
+
+}
+@media only screen and (max-width: 1030px) {
+    .mainWrapper {
+      width: 729px;
+      top: 0;
+    }
+    .bannerImage{
+      width: 491px;
+      height: 767px;
+      background-image: url("./singer.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      top: 0;
+    }
+    .bannerImage .noneImage{
+      display: none;
+    }
+    .accesWrapper{
+      width: 635px;
+      height: 509px;
+      margin-top: 51px;
+    }
+    .logos{
+      margin-top: 50px;
+    }
+    .ragac{
+      left: -250px;
+      bottom: -153px;
+    }
+    .title{
+      font-size: 48px;
+      margin-top: 5px;
+    }
+}
+@media only screen and (max-width: 740px){
+  .mainWrapper{
+    width: 100%;
+    height: 667px;
+    background-image: url("./singer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    gap: 0;
+  }
+  .bannerImage{
+    display: none;
+  }
+  .accesWrapper{
+    width: 327px;
+    background-color: transparent;
+    padding-top: 0px;
+    margin-top: 57px;
+  }
+  .title{
+    width: 327px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38px;
+  }
+  .instruction{
+    width: 327px;
+    color: #C2CBE5;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .inputField{
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 94px;
+  }
+  .inputField input{
+    width: 100%;
+    height: 46px;
+    border-radius: 28px;
+    background: #2C344B;
+  }
+  .inputField button{
+    width: 326px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background-color: #54E6AF;
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+  }
+  .partners{
+    position: absolute;
+    top: 190px;
+  }
+  .partners img:nth-child(1){
+    width: 57px;
+  }
+  .partners img:nth-child(2){
+    width: 45px;
+    margin-left: 23px;
+  }
+  .partners img:nth-child(3){
+    width: 73px;
+    margin-left: 25px;
+  }
+  .partners img:nth-child(4){
+    width: 77px;
+    margin-left: 16px;
+  }
+  .ragac{
+    display: none;
+  }
+  .cover{
+    opacity: 0.82;
+    background-color: #121725;
+    z-index: 0;
+  }
+  .logos{
+    z-index: 10;
+  }
+  .error{
+    bottom: 185px;
+    margin-left: 80px;
+    font-size: 10px;
+  }
+} 

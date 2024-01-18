@@ -6,12 +6,17 @@ function App() {
 
   return (
     <div className='mainWrapper'>
+      <div className='cover'></div>
       <div className='logos'>
         <img src="./logo.svg" alt="logoImage" />
         <img src="./pod.svg" alt="podImage" />
       </div>
       <div className='bannerImage'>
-        <img src="./singer.png" alt="singerImage" />
+        <div className='cover'></div>
+        <img className='noneImage' src="./singer.png" alt="singerImage" />
+        <div className='ragac'>
+          <img src="./ragac.svg" alt="ragacWertilebi" />
+        </div>
       </div>
       <Acces />
     </div>
