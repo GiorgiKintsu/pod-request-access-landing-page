@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --mainFont: "Chivo", sans-serif;
+}
+
+
+.accesWrapper{
+    width: 723px;
+    height: 509px;
+    background-color: #121725;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    padding-top: 88px;
+}
+.title{
+    width: 665px;
+    color: #54E6AF;
+    font-family: var(--mainFont);
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px;
+    text-transform: uppercase;
+}
+.title span{
+    color: #fff;
+}
+.instruction{
+    width: 445px;
+    color: #C2CBE5;
+    font-family: var(--mainFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin: 24px 0px 40px 0px;
+}
+.inputField{
+    width: 427px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #2C344B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputField input{
+    width: 300px;
+    background-color: transparent;
+    color: #FFF;
+    font-family: var(--mainFont);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    border-width: 0px;
+    padding: 14px 0px 14px 32px;
+    outline: none;
+}
+.inputField input[type=text]:focus{
+    border: 0px solid transparent;
+}
+.inputField button{
+    width: 162px;
+    height: 46px;
+    border-radius: 28px;
+    background-color: #B3FFE2;
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+    border: 0px;
+    margin-right: 5px;
+    color: #121725;
+    font-family: var(--mainFont);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px; 
+    text-transform: capitalize;
+}
+.error{
+    position: absolute;
+    bottom: 71px;
+    color: #FB3E3E;
+    font-family: var(--mainFont);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin: 8px 0px 0px 32px;   
+}
+.partners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: end;
+    margin-top: 64px;
+}
+.partners img:nth-child(2){
+    margin-left: 40px;
+}
+.partners img:nth-child(3){
+    margin-left: 41px;
+}
+.partners img:nth-child(4){
+    margin-left: 27px;
+}
