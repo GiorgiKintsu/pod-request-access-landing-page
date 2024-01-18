@@ -12,7 +12,7 @@
     background-size: cover;
     top: 0;
   }
-  .bannerImage .noneImage{
+  .noneImage{
     display: none;
   }
   .accesWrapper{
@@ -33,19 +33,10 @@
     .bannerImage{
       width: 491px;
       height: 767px;
-      background-image: url("./singer.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      top: 0;
-    }
-    .bannerImage .noneImage{
-      display: none;
     }
     .accesWrapper{
       width: 635px;
       height: 509px;
-      margin-top: 51px;
     }
     .logos{
       margin-top: 50px;
@@ -62,16 +53,6 @@
 @media only screen and (max-width: 740px){
   .mainWrapper{
     width: 100%;
-    
-    background-image: url("./singer.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    gap: 0;
-  }
-  .bannerImage{
-    display: none;
   }
   .accesWrapper{
     width: 327px;
